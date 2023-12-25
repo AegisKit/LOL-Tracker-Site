@@ -10,8 +10,8 @@ export function Head(props: HeadProps) {
   return (
     <div>
       <Helmet>
-        <title>Your Page Title</title>
-        <meta name="description" content="Your page description" />
+        <title>LTS | {props.title}</title>
+        <meta name="description" content={props.discription} />
       </Helmet>
     </div>
   );
